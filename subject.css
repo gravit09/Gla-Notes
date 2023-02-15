@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+#search-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+#search-input {
+  width: 50%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.card {
+  background-color: #f2f2f2;
+  width: 420px;
+  height: auto;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.subject {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.type {
+  font-size: 18px;
+  color: gray;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 16px;
+  color: gray;
+  margin-bottom: 10px;
+}
+
+.download-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+#card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
